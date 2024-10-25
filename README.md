@@ -35,3 +35,12 @@ The project uses Docker for containerized deployment:
 
 - Docker and Docker Compose installed on your machine.
 
+### 1. Clone the repository
+```bash
+git clone <repository-url>
+cd LAB_1
+
+### 2. Build and run the project with Docker Compose
+```bash
+docker-compose up --build
+
