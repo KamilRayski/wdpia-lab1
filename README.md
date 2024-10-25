@@ -39,8 +39,19 @@ The project uses Docker for containerized deployment:
 ```bash
 git clone <repository-url>
 cd LAB_1
+```
 
 ### 2. Build and run the project with Docker Compose
 ```bash
 docker-compose up --build
+```
+This will:
+- Start the Python server on port 8000.
+- Start the NGINX server on port 8080 (you can access the UI through http://localhost:8080).
+
+### 3. Access the application
+Open your web browser and navigate to:
+``` bash
+http://localhost:8080
+```
 
